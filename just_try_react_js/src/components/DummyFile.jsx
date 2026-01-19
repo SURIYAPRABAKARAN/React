@@ -21,7 +21,6 @@ const DummyFile = () => {
       .then(res => res.json())
       .then(data => setJsonData(data))
       .catch(error => console.log("error while fetch==> ", error));
-
     getUserJson();
   }, [names]);
 
